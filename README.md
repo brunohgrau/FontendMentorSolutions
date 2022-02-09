@@ -1,9 +1,9 @@
 
 # Frontend Mentor Solutions 
 
-- Demo: 
 
-Solution to Frontend Mentor challaneges https://www.frontendmentor.io/
+
+Solutions to Frontend Mentor challaneges (https://www.frontendmentor.io/)
 
 ### Tools used
 
