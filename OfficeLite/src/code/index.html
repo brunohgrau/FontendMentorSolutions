@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/app/css/style.css">
+
+  <script src="/app/js/countdown.js" defer></script>
+
+  <title>Frontend Mentor | Officelite coming soon site</title>
+</head>
+<body> 
+  <header class="header header_homepage container">
+      <img src="/assets/shared/logo.svg" alt="Officelite logo">
+  </header>
+  <main>
+    <section class="hero container">
+      <div class="hero__image">
+        <img class="hero__image__img" src="/assets/home/illustration-charts.svg" alt="">
+      </div>
+      <div class="hero__content">
+        <h1 class="hero__content__heading heading">A simple solution to complex tasks is coming soon</h1>
+        <span class="hero__content__tagline tagline">Say goodbye to inefficient juggling of multiple apps, teams, and projects. Officelite is the new collaboration platform built with an intuitive interface to improve productivity.</span>
+        <a href="/sign-up.html" class="btn btn--cta">Get Started</a>
+      </div>
+    </section>
+    <section class="pricing container">
+      <div class="pricing__card pricing__card--white">
+        <div class="pricing__card__info">
+          <h2 class="pricing__card__plan">Basic</h2>
+          <span class="pricing__card__price">Free</span>
+          <span class="pricing__card__details">Up to 5 users for free</span>
+        </div>
+        <ul class="pricing__card__features" role="list">
+          <li class="pricing__card__feat-item" role="listitem">Basic document collaboration</li>
+          <li class="pricing__card__feat-item" role="listitem">2 gb storage</li>
+          <li class="pricing__card__feat-item" role="listitem">Great security and support</li>
+        </ul>
+        <a href="/sign-up.html" class="btn btn--blue pricing__card__button">Try for Free</a>
+      </div>
+      <div class="pricing__card pricing__card--blue">
+        <div class="pricing__card__info">
+          <h2 class="pricing__card__plan">Pro</h2>
+          <span class="pricing__card__price">$9.99</span>
+          <span class="pricing__card__details">Per user, billed monthly</span>
+        </div>
+        <ul class="pricing__card__features" role="list">
+          <li class="pricing__card__feat-item" role="listitem">All essential integrations</li>
+          <li class="pricing__card__feat-item" role="listitem">50 gb storage</li>
+          <li class="pricing__card__feat-item" role="listitem">More control and insights</li>
+        </ul>
+        <a href="/sign-up.html" class="btn btn--white pricing__card__button">Try for Free</a>
+      </div>
+      <div class="pricing__card pricing__card--white">
+        <div class="pricing__card__info">
+          <h2 class="pricing__card__plan">Ultimate</h2>
+          <span class="pricing__card__price">$19.99</span>
+          <span class="pricing__card__details">Per user, billed monthly</span>
+        </div>
+        <ul class="pricing__card__features" role="list">
+          <li class="pricing__card__feat-item" role="listitem">Robust work management</li>
+          <li class="pricing__card__feat-item" role="listitem">100 gb storage</li>
+          <li class="pricing__card__feat-item" role="listitem">VIP support</li>
+        </ul>
+        <a href="/sign-up.html" class="btn btn--blue pricing__card__button">Try for Free</a>
+      </div>
+    </section>
+    <section class="home-countdown container">
+      <div class="countdown-clock">
+        <h2 class="countdown-clock__heading countdown-clock--gray__heading home-countdown__heading">Coming <span class="countdown-clock__date js-due-date">4 Nov 2020</span></h2>
+        <div class="countdown-clock__timer home-countdown__timer">
+          <div class="countdown-clock__card countdown-clock--gray__card">
+            <span class="countdown-clock__number countdown-clock--gray__number js-days-left">
+              47
+            </span>
+            <span class="countdown-clock__text countdown-clock--gray__text">
+              days
+            </span>
+          </div>
+          <div class="countdown-clock__card countdown-clock--gray__card">
+            <span class="countdown-clock__number countdown-clock--gray__number js-hours-left">
+              07
+            </span>
+            <span class="countdown-clock__text countdown-clock--gray__text">
+              hours
+            </span>
+          </div>
+          <div class="countdown-clock__card countdown-clock--gray__card">
+            <span class="countdown-clock__number countdown-clock--gray__number js-minutes-left">
+              56
+            </span>
+            <span class="countdown-clock__text countdown-clock--gray__text">
+              min
+            </span>
+          </div>
+          <div class="countdown-clock__card countdown-clock--gray__card">
+            <span class="countdown-clock__number countdown-clock--gray__number js-seconds-left">
+              14
+            </span>
+            <span class="countdown-clock__text countdown-clock--gray__text">
+              sec
+            </span>
+          </div>
+        </div>
+      </div>
+      <a href="/sign-up.html" class="btn btn--cta--darkbg home-countdown__button">Get Started</a>
+    </section>
+    
+  </main>
+</body>
+</html>
